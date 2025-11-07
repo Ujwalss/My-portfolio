@@ -4,7 +4,7 @@ pipeline {
 	stages {
 		stage('Pull Code') {
 			steps {
-				git branch: 'main', url: 'https://github.com/Ujwalss/devops-portfolio.git'
+				git branch: 'main', url: 'https://github.com/Ujwalss/My-portfolio.git'
 			}
 		}
 		
